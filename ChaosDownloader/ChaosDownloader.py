@@ -22,7 +22,7 @@ class ChaosMusic(object):
             "artista": trackinfo.artist.name
         }
     
-    def get_url_youtube(self, name: str):
+    def download(self, name: str):
         videosSearch = VideosSearch(name, limit = 1)
         result = videosSearch.result()
     
