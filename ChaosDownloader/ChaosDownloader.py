@@ -5,7 +5,7 @@ from youtubesearchpython import VideosSearch
 import deezepy
 
 
-class ChaosMusic(object):
+class ChaosDownloader(object):
     def __init__(self):
         self.author = "ChillatoDev and PiccioneFire"
 
